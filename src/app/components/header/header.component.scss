@@ -1,0 +1,9 @@
+.header-div {
+  border-bottom: 0.5px solid #bfbfbf;
+  input {
+    &::placeholder {
+      color: #bfbfbf;
+      font-size: 12px;
+    }
+  }
+}
