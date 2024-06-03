@@ -2,6 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
 @font-face {
   font-family: "PoppinsRegular";
   src: url("../public/assets/fonts/Poppins/Poppins-Regular.ttf");

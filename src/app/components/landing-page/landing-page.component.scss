@@ -1,0 +1,26 @@
+::ng-deep #home-owl .owl-carousel .owl-dots {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+::ng-deep #home-owl .owl-carousel .owl-dots .owl-dot.active > span {
+  width: 12px;
+  height: 12px;
+  background-color: #db4444;
+  border: 2px solid #fff;
+}
+.women-fashion-div p {
+  margin-bottom: 10px;
+}
+.main-category-div:hover .women-fashion-div {
+  display: block;
+  p {
+    color: #333;
+  }
+}
+.main-category-div:hover p {
+  color: #db4444;
+}
